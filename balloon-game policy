@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Balloon Protect · Rise Up — Gizlilik Politikası</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.65;color:#0b1533}
+  h1{font-size:26px;margin-bottom:4px}
+  h2{font-size:19px;margin-top:36px;border-bottom:1px solid #e2e6f0;padding-bottom:6px}
+  .meta{color:#5a6478;font-size:14px;margin-top:0}
+  ul{padding-left:20px}
+  li{margin:8px 0}
+  a{color:#1b3fa0}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+  th,td{text-align:left;padding:8px;border-bottom:1px solid #e2e6f0}
+  th{color:#5a6478;font-weight:600}
+  .footer-links{margin-top:40px;padding-top:16px;border-top:1px solid #e2e6f0;font-size:14px}
+</style>
+</head>
+<body>
+
+<h1>Balloon Protect · Rise Up — Gizlilik Politikası</h1>
+<p class="meta">Son güncelleme: 15 Eylül 2026 &nbsp;·&nbsp; Paket adı: com.balloongame</p>
+
+<p>Balloon Protect · Rise Up çevrimdışı oynanabilen bir mobil oyundur. Uygulama; ad, e-posta adresi, telefon numarası, konum gibi kişisel bilgileri talep etmez ve hesap oluşturma ekranı içermez.</p>
+
+<h2>Toplanan Veriler</h2>
+<p>Uygulama, aşağıdaki hizmetler aracılığıyla sınırlı ve anonim teknik veriler işler:</p>
+
+<table>
+<tr><th>Veri</th><th>Kaynak</th><th>Amaç</th></tr>
+<tr>
+  <td>Anonim kullanıcı kimliği (UID)</td>
+  <td>Firebase Authentication (Anonymous)</td>
+  <td>Global skor tablosunda cihazı ayırt etmek. Herhangi bir kişisel bilgiyle (ad, e-posta) eşleştirilmez, giriş ekranı yoktur.</td>
+</tr>
+<tr>
+  <td>Skor, irtifa, oyun modu</td>
+  <td>Cloud Firestore</td>
+  <td>Global skor tablosunu oluşturmak. Yalnızca ilgili cihazın anonim UID'si tarafından yazılır, başka oyuncular tarafından değiştirilemez.</td>
+</tr>
+<tr>
+  <td>Çökme raporları ve uygulama performans verileri</td>
+  <td>Firebase Crashlytics</td>
+  <td>Hataları tespit edip düzeltmek. Cihaz modeli, işletim sistemi sürümü, hata yığın izi gibi teknik bilgiler içerir; kişisel içerik içermez.</td>
+</tr>
+<tr>
+  <td>Kullanım istatistikleri (ör. oturum süresi, ekran görüntülenmeleri)</td>
+  <td>Firebase Analytics</td>
+  <td>Uygulamanın nasıl kullanıldığını anlamak ve geliştirmek. Toplu ve anonimleştirilmiş şekilde işlenir.</td>
+</tr>
+<tr>
+  <td>Yerel ayarlar ve rekor skor</td>
+  <td>Cihaz üzerinde yerel depolama (localStorage)</td>
+  <td>Oyun tercihlerini ve kişisel en iyi skoru cihazda saklamak. Sunucuya gönderilmez.</td>
+</tr>
+</table>
+
+<h2>Üçüncü Taraf Hizmetler</h2>
+<p>Yukarıdaki veriler Google'ın Firebase altyapısında (Authentication, Firestore, Crashlytics, Analytics) işlenir. Bu hizmetlerin veri işleme esasları Google'ın kendi gizlilik politikasına tabidir: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>. Firebase Analytics ve Crashlytics tarafından toplanan veriler Google tarafından toplulaştırılmış şekilde işlenebilir.</p>
+<p>Toplanan veriler hiçbir şekilde satılmaz veya pazarlama amacıyla üçüncü taraflarla paylaşılmaz.</p>
+
+<h2>Veri Saklama ve Silme</h2>
+<p>Skor tablosu verisi, adil ve güncel bir sıralama sağlamak amacıyla süresiz olarak saklanabilir. Anonim UID'nize bağlı skor kaydınızın silinmesini talep etmek için aşağıdaki iletişim adresinden bize ulaşabilirsiniz; talebiniz makul bir süre içinde işleme alınır. Cihaz üzerindeki yerel veriler (localStorage) uygulama kaldırıldığında otomatik olarak silinir.</p>
+
+<h2>Çocukların Gizliliği</h2>
+<p>Uygulama PEGI 3 / Everyone içerik derecelendirmesine sahiptir; şiddet, uygunsuz dil veya yetişkin içerik barındırmaz. Uygulama, yaş doğrulaması gerektirmeyen genel kullanıcı kitlesine yöneliktir ve bilerek 13 yaş altı çocuklardan kişisel veri toplamaz. Firebase Analytics ve Crashlytics kullanımı, çocuklara yönelik reklam veya kişiselleştirilmiş içerik amacıyla kullanılmaz.</p>
+
+<h2>Veri Sahibinin Hakları (KVKK)</h2>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında, işlenen anonim verilerle ilgili bilgi talep etme, düzeltme veya silinmesini isteme hakkına sahipsiniz. Bu haklarınızı kullanmak için aşağıdaki iletişim adresinden bize ulaşabilirsiniz.</p>
+
+<h2>Politika Değişiklikleri</h2>
+<p>Bu gizlilik politikası zaman zaman güncellenebilir. Önemli değişiklikler bu sayfada "son güncelleme" tarihiyle birlikte yayınlanır.</p>
+
+<h2>İletişim</h2>
+<p>Geliştirici: Nur Production<br>
+Sorularınız için: <a href="mailto:nurserisidestek@gmail.com">nurserisidestek@gmail.com</a></p>
+
+<div class="footer-links">
+  <a href="/">Ana sayfa</a> &nbsp;·&nbsp; <a href="https://balloon-game-seven.vercel.app/" target="_blank" rel="noopener">Web sürüm</a>
+</div>
+
+</body>
+</html>
